@@ -10,7 +10,7 @@
         chartTitle="@Strings.lEEChart"
         dataLabel="@Strings.lEEData"
         unitLabel="@Strings.lEEUnits"
-        fillColor="#FF0000" />
+        fillColor="#c4540f" />
         
       <fitField id="1"
         displayInChart="false"

@@ -17,10 +17,6 @@ class EnergyExpenditureFieldView extends Ui.SimpleDataField {
         mEEField 		 = createField("energy_expenditure", 			 0, FitContributor.DATA_TYPE_UINT16, { :mesgType=>FitContributor.MESG_TYPE_RECORD,  :units=>"kcal/h" });
         mAverageEEField  = createField("average_energy_expenditure", 	 1, FitContributor.DATA_TYPE_UINT16, { :mesgType=>FitContributor.MESG_TYPE_SESSION, :units=>"kcal/h" });
         mLapEEField 	 = createField("lap_average_energy_expenditure", 2, FitContributor.DATA_TYPE_UINT16, { :mesgType=>FitContributor.MESG_TYPE_LAP, 	:units=>"kcal/h" });
-        
-        mEEField.setData(0);
-        mAverageEEField.setData(0);
-        mLapEEField.setData(0);
     }
     
 
