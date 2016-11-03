@@ -1,6 +1,6 @@
 <strings>
     <string id="AppName">Energy Expenditure</string>
-    <string id="AppVersion">1.0.2</string>
+    <string id="AppVersion">1.0.3</string>
     <string id="lEEChart">Energy Expenditure</string>
     <string id="lEEData">Energy Expenditure</string>
     <string id="lEEAvgData">Avg Energy Expenditure</string>
